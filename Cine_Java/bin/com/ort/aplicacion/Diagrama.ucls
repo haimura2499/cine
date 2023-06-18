@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <enumeration id="1" language="java" name="com.ort.aplicacion.ResultadoCambiarSalaFuncion" 
+    project="THP_SEGUNDO_PARCIAL_2023" 
+    file="/THP_SEGUNDO_PARCIAL_2023/src/com/ort/aplicacion/ResultadoCambiarSalaFuncion.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="721" y="517"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="2" language="java" name="com.ort.entidades.Cliente" project="THP_SEGUNDO_PARCIAL_2023" 
+    file="/THP_SEGUNDO_PARCIAL_2023/src/com/ort/entidades/Cliente.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="631" y="280"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.ort.entidades.Sala" project="THP_SEGUNDO_PARCIAL_2023" 
+    file="/THP_SEGUNDO_PARCIAL_2023/src/com/ort/entidades/Sala.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1012" y="-109"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="4" language="java" name="com.ort.entidades.Genero" project="THP_SEGUNDO_PARCIAL_2023" 
+    file="/THP_SEGUNDO_PARCIAL_2023/src/com/ort/entidades/Genero.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="932" y="321"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="5" language="java" name="com.ort.entidades.Funcion" project="THP_SEGUNDO_PARCIAL_2023" 
+    file="/THP_SEGUNDO_PARCIAL_2023/src/com/ort/entidades/Funcion.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1316" y="-21"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="6" language="java" name="com.ort.aplicacion.ResultadoCompra" project="THP_SEGUNDO_PARCIAL_2023" 
+    file="/THP_SEGUNDO_PARCIAL_2023/src/com/ort/aplicacion/ResultadoCompra.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1161" y="474"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="7" language="java" name="com.ort.entidades.Entrada" project="THP_SEGUNDO_PARCIAL_2023" 
+    file="/THP_SEGUNDO_PARCIAL_2023/src/com/ort/entidades/Entrada.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1164" y="241"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.ort.aplicacion.CineORT" project="THP_SEGUNDO_PARCIAL_2023" 
+    file="/THP_SEGUNDO_PARCIAL_2023/src/com/ort/aplicacion/CineORT.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="651" y="-48"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="9">    
+    <bendpoint x="832" y="-119"/>    
+    <bendpoint x="832" y="-111"/>    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="10" name="salas">        
+        <position height="19" width="37" x="865" y="-132"/>      
+      </attribute>      
+      <multiplicity id="11" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="12">    
+    <bendpoint x="631" y="93"/>    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="13" name="clientes">        
+        <position height="19" width="49" x="635" y="120"/>      
+      </attribute>      
+      <multiplicity id="14" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="15">    
+    <bendpoint x="832" y="1"/>    
+    <bendpoint x="831" y="-3"/>    
+    <bendpoint x="1193" y="-3"/>    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="16" name="funciones">        
+        <position height="19" width="60" x="984" y="-24"/>      
+      </attribute>      
+      <multiplicity id="17" minimum="0" maximum="2147483647">        
+        <position height="17" width="24" x="1171" y="9"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="18">    
+    <bendpoint x="831" y="62"/>    
+    <bendpoint x="1164" y="63"/>    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <association id="19">    
+    <bendpoint x="737" y="241"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="20" name="entradas">        
+        <position height="19" width="55" x="878" y="222"/>      
+      </attribute>      
+      <multiplicity id="21" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="22">    
+    <bendpoint x="1277" y="257"/>    
+    <bendpoint x="1280" y="256"/>    
+    <bendpoint x="1331" y="256"/>    
+    <bendpoint x="1331" y="152"/>    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="23" name="funcion">        
+        <position height="19" width="47" x="1292" y="264"/>      
+      </attribute>      
+      <multiplicity id="24" minimum="0" maximum="1">        
+        <position height="17" width="26" x="1337" y="158"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="25">    
+    <bendpoint x="478" y="91"/>    
+    <bendpoint x="477" y="511"/>    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <association id="26">    
+    <bendpoint x="738" y="326"/>    
+    <bendpoint x="738" y="322"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="27" name="genero">        
+        <position height="19" width="46" x="774" y="298"/>      
+      </attribute>      
+      <multiplicity id="28" minimum="0" maximum="1">        
+        <position height="17" width="26" x="831" y="328"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="29">    
+    <bendpoint x="1203" y="-108"/>    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="30" name="sala">        
+        <position height="19" width="31" x="1136" y="-129"/>      
+      </attribute>      
+      <multiplicity id="31" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="32">    
+    <bendpoint x="502" y="93"/>    
+    <bendpoint x="502" y="419"/>    
+    <bendpoint x="1018" y="419"/>    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
